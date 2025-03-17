@@ -54,7 +54,7 @@ fun SearchCityContent(
 
     Scaffold(
         topBar = {
-            CustomTopAppBar(title = stringResource(R.string.settings))
+            CustomTopAppBar(title = stringResource(R.string.search))
         }
     ) { paddingValues ->
         Surface(
