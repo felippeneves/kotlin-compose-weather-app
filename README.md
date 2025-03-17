@@ -110,7 +110,21 @@ This project follows **Clean Architecture** principles with modular layers:
 
 ## 📸 Screenshots
 
-📉 Coming soon! Stay tuned. 📸
+### Home Screen
+
+![Home Screen](screenshots/home_screen.png)
+
+### Favorite Cities Screen
+
+![Favorite Cities Screen](screenshots/favorite_cities_screen.png)
+
+### Search Screen
+
+![Search Screen](screenshots/search_screen.png)
+
+### Settings Screen
+
+![Settings Screen](screenshots/settings_screen.png)
 
 ---
 
