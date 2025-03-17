@@ -116,15 +116,15 @@ This project follows **Clean Architecture** principles with modular layers:
 
 ### Favorite Cities Screen
 
-![Favorite Cities Screen](screenshots/favorite_cities_screen.png)
+<img src="screenshots/favorite_cities_screen.png" alt="Favorite Cities Screen" width="400">
 
 ### Search Screen
 
-![Search Screen](screenshots/search_screen.png)
+<img src="screenshots/search_screen.png" alt="Search Screen" width="400">
 
 ### Settings Screen
 
-![Settings Screen](screenshots/settings_screen.png)
+<img src="screenshots/settings_screen.png" alt="Settings Screen" width="400">
 
 ---
 
