@@ -112,7 +112,7 @@ This project follows **Clean Architecture** principles with modular layers:
 
 ### Home Screen
 
-![Home Screen](screenshots/home_screen.png)
+<img src="screenshots/home_screen.png" alt="Home Screen" width="400">
 
 ### Favorite Cities Screen
 
