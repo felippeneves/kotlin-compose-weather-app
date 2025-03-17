@@ -62,7 +62,7 @@ API_KEY="your_api_key_here"
 ### Setup Instructions
 1. **Clone the repository**
    ```sh
-   git clone https://github.com/your-username/WeatherApp.git
+   git clone https://github.com/felippeneves/kotlin-compose-weather-app.git
    cd WeatherApp
    ```
 
