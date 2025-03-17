@@ -1,6 +1,6 @@
 # 🌦️ WeatherApp - Android (Kotlin Compose)
 
-[![Kotlin](https://img.shields.io/badge/Kotlin-1.9.0-blue.svg)](https://kotlinlang.org/)
+[![Kotlin](https://img.shields.io/badge/Kotlin-2.0.0-blue.svg)](https://kotlinlang.org/)
 [![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-UI-green.svg)](https://developer.android.com/jetpack/compose)
 [![MVVM](https://img.shields.io/badge/MVVM-Architecture-orange.svg)](https://developer.android.com/topic/architecture)
 [![Dagger Hilt](https://img.shields.io/badge/Dagger%20Hilt-DI-blue.svg)](https://developer.android.com/training/dependency-injection/hilt-android)
