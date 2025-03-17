@@ -2,7 +2,6 @@ package com.felippeneves.kotlin_compose_weather_app.presentation.features.home
 
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
-import com.felippeneves.kotlin_compose_weather_app.presentation.features.favorite_cities.events.FavoriteCitiesEvent
 import com.felippeneves.kotlin_compose_weather_app.presentation.features.home.events.HomeEvent
 import com.felippeneves.kotlin_compose_weather_app.presentation.features.home.state.HomeState
 import kotlinx.coroutines.flow.MutableSharedFlow

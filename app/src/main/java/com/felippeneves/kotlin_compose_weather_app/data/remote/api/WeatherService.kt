@@ -14,6 +14,6 @@ interface WeatherService {
     suspend fun fetchWeatherByCity(
         @Query(ApiUtil.QUERY_API_PARAM) query: String,
         @Query(ApiUtil.UNITS_API_PARAM) units: String = ApiUtil.UNITS_API_PARAM_DEFAULT_VALUE,
-        @Query(ApiUtil.APP_ID_API_PARAM) appId: String = BuildConfig.APP_ID
+        @Query(ApiUtil.APP_ID_API_PARAM) appId: String = BuildConfig.API_KEY
     ): Response<WeatherResponse>
 }

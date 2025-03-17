@@ -1,5 +1,4 @@
 import java.util.Properties
-import java.io.FileInputStream
 
 plugins {
     alias(libs.plugins.android.application)
@@ -13,9 +12,12 @@ plugins {
     alias(libs.plugins.dagger.hilt.android)
 }
 
-val apiKeyPropertiesFile: File = rootProject.file("apiKey.properties")
-val apiKeyProperties = Properties()
-apiKeyProperties.load(FileInputStream(apiKeyPropertiesFile))
+val localProperties = rootProject.file("local.properties")
+val properties = Properties().apply {
+    if (localProperties.exists()) {
+        load(localProperties.inputStream())
+    }
+}
 
 android {
     namespace = "com.felippeneves.kotlin_compose_weather_app"
@@ -30,7 +32,11 @@ android {
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
 
-        buildConfigField(type = "String", name = "APP_ID", value = apiKeyProperties["APP_ID"].toString())
+        buildConfigField(
+            type = "String",
+            name = "API_KEY",
+            value = properties["API_KEY"].toString()
+        )
     }
 
     buildTypes {

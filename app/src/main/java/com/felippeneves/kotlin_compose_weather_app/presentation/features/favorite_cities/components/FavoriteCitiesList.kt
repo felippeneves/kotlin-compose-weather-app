@@ -1,6 +1,5 @@
 package com.felippeneves.kotlin_compose_weather_app.presentation.features.favorite_cities.components
 
-import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
